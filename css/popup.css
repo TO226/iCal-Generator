@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+  font-size: 12px; /* Update */
+  text-transform: uppercase; /* Update */
+}
+
+input[type="text"],
+input[type="time"] {
+  font-size: 14px;
+  padding: 12px; /* Update */
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none; /* Update */
+}
+
+input[type="text"]:focus,
+input[type="time"]:focus {
+  border-color: #007aff; /* Update */
+}
+
+button {
+  background-color: #007aff; /* Update */
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px; /* Update */
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #0068e0; /* Update */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007aff; /* Update */
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #0068e0; /* Update */
+}
+
+a:active {
+  color: #0058bd; /* Update */
+}

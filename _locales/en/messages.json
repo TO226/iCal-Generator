@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "iCal_Generator"
+    },
+    "appDesc": {
+        "message": "This is a Chrome extension that allows you to easily create iCal."
+    }
+}

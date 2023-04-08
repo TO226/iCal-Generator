@@ -1,0 +1,22 @@
+{
+  "name": "__MSG_appName__",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "description": "__MSG_appDesc__",
+  "default_locale": "ja",
+  "homepage_url": "https://github.com/TO226/iCal_Generator",
+  "update_url": "https://github.com/TO226/iCal_Generator/releases",
+  "icons": {
+    "256": "img/icon_256.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/jquery.js", "js/jquery-ui.min.js"],
+      "css": ["css/jquery-ui.min.css"]
+    }
+  ]
+}

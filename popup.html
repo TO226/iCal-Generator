@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>iCal Generator</title>
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/popup.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popup.js"></script>
+  </head>
+  <body>
+    <div>
+      <label for="from">Event Date:</label>
+      <input type="text" id="from" />
+    </div>
+    <div>
+      <label for="eventTime">Event Time (24-hour format):</label>
+      <input type="time" id="eventTime" />
+    </div>
+    <div>
+      <label for="eventLocation">Event Location:</label>
+      <input type="text" id="eventLocation" />
+    </div>
+    <div>
+      <label for="eventName">Event Name:</label>
+      <input type="text" id="eventName" />
+    </div>
+    <button id="generateBtn">Generate iCal</button>
+    <a href="#" id="downloadLink" download="example.ics" style="display: none">
+      Download iCal
+    </a>
+  </body>
+</html>

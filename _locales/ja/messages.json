@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "iCal_Generator"
+    },
+    "appDesc": {
+        "message": "iCalを簡単に作成できるChrome拡張機能です。"
+    }
+}
