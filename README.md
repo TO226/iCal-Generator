@@ -2,7 +2,9 @@
 
 iCal Generator is a simple Chrome extension that allows you to easily create custom iCal files.
 
-![sample-screenshot](./screenshot.png)
+|Popup|
+|---|
+||
 
 ## Features
 
