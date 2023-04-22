@@ -4,8 +4,7 @@ iCal Generator is a simple Chrome extension that allows you to easily create cus
 
 |Popup|
 |---|
-|![screenshot01](https://user-images.githubusercontent.com/109842406/233791299-22a76dbb-3384-4922-8f68-a06fcf6ce59d.png)
-|
+|![screenshot01](https://user-images.githubusercontent.com/109842406/233791299-22a76dbb-3384-4922-8f68-a06fcf6ce59d.png)|
 
 ## Features
 
