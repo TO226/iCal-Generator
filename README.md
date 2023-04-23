@@ -1,6 +1,6 @@
 # iCal Generator Chrome Extension
 
-iCal Generator is a simple Chrome extension that allows you to easily create custom iCal files.
+iCal Generator is a simple Chrome extension that allows you to easily create custom ICS files.
 
 |Popup|
 |---|
@@ -8,8 +8,8 @@ iCal Generator is a simple Chrome extension that allows you to easily create cus
 
 ## Features
 
-- Generate iCal files with specified event name, date, time, and location
-- Easily download the generated iCal files
+- Generate ICS files with specified event name, date, time, and location
+- Easily download the generated ICS files
 - Intuitive date picking with a popup calendar
 
 ## Installation
@@ -35,8 +35,8 @@ iCal Generator is a simple Chrome extension that allows you to easily create cus
 
 1. Click on the extension icon to open the popup.
 2. Fill in the event name, date, time, and location.
-3. Click the "Generate iCal" button to create the iCal file.
-4. Click the "Download iCal" link to download the generated iCal file.
+3. Click the "Generate iCal" button to create the ICS file.
+4. Click the "Download iCal" link to download the generated ICS file.
 
 ## License
 
