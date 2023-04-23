@@ -10,7 +10,6 @@ iCal Generator is a simple Chrome extension that allows you to easily create cus
 
 - Generate iCal files with specified event name, date, time, and location
 - Easily download the generated iCal files
-- Simple and elegant UI design inspired by Apple
 - Intuitive date picking with a popup calendar
 
 ## Installation
