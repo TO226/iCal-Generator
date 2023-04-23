@@ -3,9 +3,8 @@
   "version": "1.0.1",
   "manifest_version": 3,
   "description": "__MSG_appDesc__",
-  "default_locale": "ja",
+  "default_locale": "en",
   "homepage_url": "https://github.com/TO226/iCal_Generator",
-  "update_url": "https://github.com/TO226/iCal_Generator/releases",
   "icons": {
     "256": "img/icon_256.png"
   },
