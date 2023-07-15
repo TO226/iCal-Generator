@@ -9,9 +9,10 @@ $(function () {
 
   $("#generateBtn").on("click", function () {
     const eventName = $("#eventName").val().trim();
-    const eventLocation = $("#eventLocation").val().trim(); // 追加
+    const eventLocation = $("#eventLocation").val().trim();
     const eventTime = $("#eventTime").val().trim();
     const eventDate = $("#from").datepicker("getDate");
+    const eventDescription = $("#eventDescription").val().trim();
 
     if (!eventName || !eventTime || !eventDate) {
       alert("Please enter the event name, time, and date.");
@@ -25,8 +26,9 @@ $(function () {
     const icalContent = generateICalContent(
       eventName,
       eventDateTime,
-      eventLocation
-    ); // 追加
+      eventLocation,
+      eventDescription
+    );
     const blob = new Blob([icalContent], {
       type: "text/calendar;charset=utf-8",
     });
@@ -43,8 +45,12 @@ function formatDateForICal(dt) {
   return dt.toISOString().replace(/[:-]/g, "").substring(0, 15) + "Z";
 }
 
-function generateICalContent(eventName, eventDateTime, eventLocation) {
-  // 追加
+function generateICalContent(
+  eventName,
+  eventDateTime,
+  eventLocation,
+  eventDescription
+) {
   const begin = formatDateForICal(eventDateTime);
   const end = formatDateForICal(
     new Date(eventDateTime.getTime() + 60 * 60 * 1000)
@@ -57,8 +63,8 @@ function generateICalContent(eventName, eventDateTime, eventLocation) {
     `DTSTART:${begin}`,
     `DTEND:${end}`,
     `SUMMARY:${eventName}`,
-    `LOCATION:${eventLocation}`, // 追加
-    "DESCRIPTION:Created using the iCal Generator Chrome extension.",
+    `LOCATION:${eventLocation}`,
+    `DESCRIPTION:${eventDescription}`,
     "END:VEVENT",
     "END:VCALENDAR",
   ].join("\n");
