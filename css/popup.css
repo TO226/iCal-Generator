@@ -4,15 +4,15 @@ body {
   align-items: center;
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
-  padding: 20px;
-  width: 240px;
+  padding: 0px;
+  width: 210px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 label {
   display: block;
-  margin-top: 10px;
+  margin-top: 0px;
   font-weight: bold;
   color: #333;
   font-size: 12px; /* Update */
@@ -22,7 +22,7 @@ label {
 input[type="text"],
 input[type="time"] {
   font-size: 14px;
-  padding: 12px; /* Update */
+  padding: 10px; /* Update */
   margin-bottom: 10px;
   width: 100%;
   box-sizing: border-box;
@@ -44,7 +44,8 @@ button {
   border: none;
   padding: 12px 24px; /* Update */
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border-radius: 5px;
   text-transform: uppercase;
 }
